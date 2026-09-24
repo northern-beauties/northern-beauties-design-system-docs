@@ -1,0 +1,20 @@
+import{j as e}from"./jsx-runtime-DKrqkDUy.js";import{useMDXComponents as o}from"./index-D94H5L6Y.js";import{M as l}from"./blocks-CuqSOWJk.js";import"./iframe-Cd4DJLTJ.js";import"./preload-helper-Dp1pzeXC.js";import"./index-D6yLfSYc.js";import"./index-CLMb9QMM.js";const c={Neutral:["50","100","200","300","400","500","600","700","800","900","950"],Pink:["50","100","200","300","400","500","600","700","800","900","950"],Blue:["50","100","200","300","400","500","600","700","800","900","950"],Green:["50","100","200","300","400","500","600","700","800","900","950"],Red:["50","100","200","300","400","500","600","700","800","900","950"]},a=({token:r})=>e.jsxs("div",{style:{display:"flex",flexDirection:"column",gap:4,minWidth:68,fontFamily:"var(--nb-primitive-font-family-body)"},children:[e.jsx("div",{style:{height:56,borderRadius:6,background:`var(--nb-primitive-color-${r})`,border:"1px solid rgba(0,0,0,0.08)"}}),e.jsx("code",{style:{fontSize:11},children:r.split("-")[1]})]}),d=({name:r,steps:n})=>e.jsxs("div",{style:{marginBottom:28},children:[e.jsx("h3",{style:{fontFamily:"var(--nb-primitive-font-family-body)",margin:"0 0 8px"},children:r}),e.jsx("div",{style:{display:"flex",flexWrap:"wrap",gap:8},children:n.map(i=>e.jsx(a,{token:`${r.toLowerCase()}-${i}`},i))})]}),m=[["--nb-semantic-color-bg-light","Default page / canvas background"],["--nb-semantic-color-bg-pink","Soft pink section background"],["--nb-semantic-color-bg-blue","Soft blue section background"],["--nb-semantic-color-bg-green","Soft green section background"],["--nb-semantic-color-text-light","Primary text on bright surfaces"],["--nb-semantic-color-text-description-light","Secondary / caption text"],["--nb-semantic-color-divider","Divider lines + Default button border"],["--nb-semantic-color-button-primary","Primary CTA fill"],["--nb-semantic-color-destructive","Destructive action fill"],["--nb-semantic-color-border","Standard control and surface border"]];function s(r){const n={code:"code",h1:"h1",h2:"h2",li:"li",p:"p",strong:"strong",ul:"ul",...o(),...r.components};return e.jsxs(e.Fragment,{children:[e.jsx(l,{title:"Foundations/Colors"}),`
+`,e.jsx(n.h1,{id:"colours",children:"Colours"}),`
+`,e.jsxs(n.p,{children:["Pulled directly from ",e.jsx(n.code,{children:"src/styles/tokens.css"})," (",e.jsx(n.code,{children:"--nb-*"}),` custom properties),
+generated from `,e.jsx(n.code,{children:"tokens/northern-beauties.tokens.json"}),`. Single light mode —
+dark mode is out of scope (DESIGN-SYSTEM.md §1.3).`]}),`
+`,`
+`,`
+`,`
+`,e.jsx("div",{style:{marginTop:24},children:Object.entries(c).map(([i,t])=>e.jsx(d,{name:i,steps:t},i))}),`
+`,e.jsx(n.h2,{id:"roles",children:"Roles"}),`
+`,e.jsxs(n.ul,{children:[`
+`,e.jsxs(n.li,{children:[e.jsx(n.strong,{children:"Pink"})," — brand primary. Pink/700 (",e.jsx(n.code,{children:"#831943"}),`) is the sole primary CTA colour
+(`,e.jsx(n.code,{children:"--nb-semantic-color-button-primary"}),"); Pink/800 (",e.jsx(n.code,{children:"#5C0F2E"}),') is the dark "statement" background.']}),`
+`,e.jsxs(n.li,{children:[e.jsx(n.strong,{children:"Blue / Green"})," — supporting brand accents (no product state semantics)."]}),`
+`,e.jsxs(n.li,{children:[e.jsx(n.strong,{children:"Neutral"})," — text, borders, surfaces."]}),`
+`,e.jsxs(n.li,{children:[e.jsx(n.strong,{children:"Red"})," — destructive and error states only."]}),`
+`]}),`
+`,e.jsx(n.h2,{id:"semantic-aliases",children:"Semantic aliases"}),`
+`,`
+`,e.jsx("div",{style:{display:"flex",flexDirection:"column",gap:8,marginTop:12},children:m.map(([i,t])=>e.jsxs("div",{style:{display:"flex",alignItems:"center",gap:12,fontFamily:"var(--nb-primitive-font-family-body)"},children:[e.jsx("div",{style:{width:40,height:40,borderRadius:6,background:`var(${i})`,border:"1px solid rgba(0,0,0,0.12)"}}),e.jsx("code",{style:{minWidth:200},children:i}),e.jsx("span",{style:{color:"var(--nb-primitive-color-neutral-500)"},children:t})]},i))})]})}function f(r={}){const{wrapper:n}={...o(),...r.components};return n?e.jsx(n,{...r,children:e.jsx(s,{...r})}):s(r)}export{d as Ramp,a as Swatch,f as default,c as ramps,m as semantics};

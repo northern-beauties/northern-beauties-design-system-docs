@@ -1,0 +1,10 @@
+import{j as e}from"./jsx-runtime-DKrqkDUy.js";import{R as p,C as d,a as m}from"./index-c_QKv3jr.js";import{B as c}from"./Button-oWIEciLu.js";import"./iframe-Cd4DJLTJ.js";import"./preload-helper-Dp1pzeXC.js";import"./index-Df4SqoBz.js";import"./index-Brs6Tk3Z.js";import"./index-CuyOe5mj.js";import"./index-RT9fCDbw.js";import"./index-s_M8_4QD.js";import"./index-BQkqygPp.js";import"./index-D6yLfSYc.js";import"./index-CLMb9QMM.js";import"./index-Bt61ALEl.js";import"./index-C8nV_E4I.js";import"./index-CkIaN0ex.js";import"./utils-DCADjnpI.js";function s({...t}){return e.jsx(p,{"data-slot":"collapsible",...t})}function i({...t}){return e.jsx(d,{"data-slot":"collapsible-trigger",...t})}function n({...t}){return e.jsx(m,{"data-slot":"collapsible-content",...t})}s.__docgenInfo={description:"",methods:[],displayName:"Collapsible"};i.__docgenInfo={description:"",methods:[],displayName:"CollapsibleTrigger"};n.__docgenInfo={description:"",methods:[],displayName:"CollapsibleContent"};const R={title:"Catalog/Collapsible",component:s,parameters:{layout:"centered",docs:{description:{component:"Standard shadcn/ui catalog component, re-skinned onto existing --nb-* tokens."}}}},o={render:()=>e.jsxs(s,{className:"w-[320px]",children:[e.jsx(i,{asChild:!0,children:e.jsx(c,{variant:"default",size:"sm",children:"Show aftercare details"})}),e.jsx(n,{className:"pt-2 text-sm text-neutral-500",children:"Avoid heat styling directly on the bonds for the first 48 hours."})]})};var r,l,a;o.parameters={...o.parameters,docs:{...(r=o.parameters)==null?void 0:r.docs,source:{originalSource:`{
+  render: () => <Collapsible className="w-[320px]">
+      <CollapsibleTrigger asChild>
+        <Button variant="default" size="sm">Show aftercare details</Button>
+      </CollapsibleTrigger>
+      <CollapsibleContent className="pt-2 text-sm text-neutral-500">
+        Avoid heat styling directly on the bonds for the first 48 hours.
+      </CollapsibleContent>
+    </Collapsible>
+}`,...(a=(l=o.parameters)==null?void 0:l.docs)==null?void 0:a.source}}};const k=["ServiceDetails"];export{o as ServiceDetails,k as __namedExportsOrder,R as default};
